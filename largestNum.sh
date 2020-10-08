@@ -2,11 +2,10 @@
 #!/bin/sh
 echo "Enter the three numbers"
 read a b c
-largest=-1
+largest=-9999
 if test $a -gt $b
 then 
     largest=$a
-    echo "$largest"
 else
     largest=$b
     
